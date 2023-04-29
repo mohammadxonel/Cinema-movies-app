@@ -15,3 +15,9 @@ header {
     display: flex;
 }
 
+h1 {
+    color: whitesmoke;
+    align-self: center;
+    margin-left: 28rem;
+}
+
