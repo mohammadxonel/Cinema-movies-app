@@ -7,3 +7,15 @@ const main = document.getElementById("content");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 
+getMovies(APIURL);
+
+// get Movies //
+
+async function getMovies(url) {
+    const resp = await fetch(url);
+    const respData = await resp.json();
+
+    console.log(respData);
+
+    showMovies(respData.results);
+}
