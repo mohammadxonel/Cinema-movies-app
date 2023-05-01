@@ -1,7 +1,7 @@
-# Cinema-movies-app
+# Cinema movies app
 
 ### Project Live :
-
+https://mohammadxxali.github.io/Cinema-movies-app/
 
 --------
 
