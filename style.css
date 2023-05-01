@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #030303;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
     margin: 0;
+    font-family: 'Monoton', cursive;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     align-self: center;
     margin-left: 28rem;
 }
@@ -26,7 +26,7 @@ h1 {
     margin: 3rem;
     margin-left: 12rem;
     background-color: transparent;
-    border: 2px solid #e9e9ec;
+    border: 2px solid #ffffff;
     border-radius: 50px;
     color: #fff;
     font-family: inherit;
@@ -35,11 +35,11 @@ h1 {
 }
 
 .search::placeholder {
-    color: #0011ff;
+    color: #000000;
 }
 
 .search:focus {
-    background-color: #050505;
+    background-color: #000000;
     outline: none;
 }
 
@@ -51,7 +51,7 @@ div {
 .movie {
     background-color: #c20000;
     border-radius: 3px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 5px rgb(0, 0, 0);
     overflow: hidden;
     position: relative;
     margin: 1rem;
@@ -65,7 +65,7 @@ div {
 }
 
 .movie-info {
-    color: #eee;
+    color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,11 +75,11 @@ div {
 }
 
 .movie-info h3 {
-    margin: 0;
+    margin: 5;
 }
 
 .movie-info span {
-    background-color: #22254b;
+    background-color: #ffffff;
     border-radius: 3px;
     font-weight: bold;
     padding: 0.25rem 0.8rem;
@@ -89,12 +89,12 @@ div {
     color: rgb(39, 189, 39);
 }
 
-.movie-info span.orange {
-    color: orange;
+.movie-info span.black {
+    color: rgb(0, 0, 0);
 }
 
 .movie-info span.red {
-    color: rgb(189, 42, 42);
+    color: rgb(255, 0, 0);
 }
 
 .overview {
@@ -112,8 +112,14 @@ div {
 
 .overview h3 {
     margin-top: 0;
+    color: #ffffff;
 }
 
 .movie:hover .overview {
     transform: translateY(0);
+}
+
+.overview {
+    background-color: #000000;
+    color: #ff0000;
 }
